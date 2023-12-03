@@ -7,7 +7,7 @@ def home():
     # Page configs (tab title, favicon)
     st.set_page_config(
         page_title="Syed Waqas's Portfolio",
-        page_icon="🍕",
+        page_icon="🖥️",
     )
 
     # CSS styles file
@@ -45,7 +45,7 @@ def home():
     # Alternative image (static and rounded) uncomment it if you prefer this one
     st.write(f"""
     <div style="display: flex; justify-content: center;">
-       <img src="{img}" alt="Enric Domingo" width="300" height="300" style="border-radius: 50%; object-fit: cover; margin-top: 40px; margin-bottom: 40px;">
+       <img src="{img}" alt="Syed Waqas" width="300" height="300" style="border-radius: 50%; object-fit: cover; margin-top: 40px; margin-bottom: 40px;">
     </div>
     """, unsafe_allow_html=True)
 
@@ -78,9 +78,9 @@ def home():
     st.write("""
     - 🧑‍💻 I am a **Senior ML and Software Engineer** @ [Vacker Global](https://www.vackerglobal.com/)
 
-    - ❤️ I am passionate about **Machine Learning/Deep Learning, MLOps, Data, Software Engineering, Computer Vision, Automation**, and more!
+    - ❤️ I am passionate about **Machine Learning/Deep Learning, MLOps, Data, Software Engineering, Computer Vision, Automation** and more!
     
-    - 🤖 I enojoy developing ML projects
+    - 🤖 I enjoy developing ML projects
     
     - 📫 How to reach me: waqas_95@live.com
     
